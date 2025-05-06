@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oscar Gardiner | Portfolio</title>
+    <style>
+        tml{
+    background: #f7f7f7;
+}
+
+body {
+    Font-family: 'Barlow', sans-serif;
+    Background: #fff7f6;
+    margin: 0 auto;
+    Color: rgb(49, 46, 46);
+}
+
+header li {
+    display: inline;
+}
+
+#top {
+    padding: 40px 20px;
+    background: rgb(34, 34, 34);
+    color: white;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+#nav-top {
+    padding: 20px 20px;
+    background: rgb(68, 68, 68);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    Color: white;
+    padding: 5px 15px;
+}
+
+a.dark {
+    color: black;
+}
+
+.section {
+    padding: 4rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+
+.project-card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+/* footer */
+footer {
+    padding: 40px;
+    background: rgb(34, 34, 34);
+    text-align: center;
+    color: white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div id="top">
+            <h1>Oscar Gardiner</h1>
+            <h2>3D Artist | Web Developer | Creative Thinker</h2>
+        </div>
+        <div id="nav-top">
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+   
+        
+
+    <main>
+        <section class="section">
+            <div id="about">
+                <h1>About Me</h1>
+                <p>Hello! I'm an aspiring 3D artist and web developer currently in high school, constantly exploring new tools and techniques to improve my skills in my free time. I enjoy using Blender, creative technology and web development languages to bring concepts to life — whether that’s through stylized 3D models, engaging web interfaces, or digital animations. My goal is to build a career as a freelance digital artist, where I can work on meaningful projects, collaborate with other creatives, and continue growing as both an artist and a developer.</p>
+            </div>
+        </section>
+    
+        <section id="projects" class="section">
+            <div>
+                <h1>Projects</h1>
+            </div>
+            <div class="projects"> <!-- This was missing -->
+                <div class="project-card">
+                    <h3>Project 1</h3>
+                    <p>Designing a tech store for web development practice</p>
+                </div>
+                <div class="project-card">
+                    <h3>Project 2</h3>
+                    <p>Designing a portfolio for web development practice</p>
+                </div>
+                <!-- Add more cards if you want -->
+            </div>
+        </section>
+
+        <section class="section">
+            <div id="contact">
+                <h1>Contact</h1>
+                <p>Email: Gardineroscar9@gmail.com</p>
+                <p>Youtube: <a href="https://www.youtube.com/@OscarAnimationz" class="dark">OscarAnimations</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Oscar Gardiner. All rights reserved.</p>
+    </footer>
+</body>
+</html>
